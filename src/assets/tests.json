@@ -298,6 +298,36 @@
       "title": "Формула розміщень",
       "formula": "A_n^m = \\frac{n!}{(n-m)!}",
       "category": "combinatorics"
+    },
+    {
+      "title": "Означення логарифма",
+      "formula": "\\log_a{b} = c \\Leftrightarrow a^c = b \\\\ b > 0 \\\\ a > 0, a \\ne 1",
+      "category": "logarithms"
+    },
+    {
+      "title": "Основна логарифмічна тотожність",
+      "formula": "a^{\\log_a{b}} = b",
+      "category": "logarithms"
+    },
+    {
+      "title": "Сума логарифмів",
+      "formula": "\\log_a{x} + \\log_a{y} = \\log_a{(x \\cdot y)}",
+      "category": "logarithms"
+    },
+    {
+      "title": "Різниця логарифмів",
+      "formula": "\\log_a{x} - \\log_a{y} = \\log_a{\\frac{x}{y}}",
+      "category": "logarithms"
+    },
+    {
+      "title": "Формула переходу до іншої основи логарифму",
+      "formula": "\\log_a{b} = \\frac{\\log_c{b}}{\\log_c{a}}",
+      "category": "logarithms"
+    },
+    {
+      "title": "Винесення степеня з основи логарифма",
+      "formula": "\\log_{a^n}{b} = \\frac{1}{n}\\log_{a}{b} \\\\ n \\ne 0",
+      "category": "logarithms"
     }
   ],
   "categories": {
