@@ -1,0 +1,127 @@
+{
+  "tests": [
+    {
+      "title": "Різниця квадратів",
+      "formula": "a^2 - b^2 = (a+b)(a-b)",
+      "category": "multiplication"
+    },
+    {
+      "title": "Квадрат суми двох чисел",
+      "formula": "(a \\pm b)^2 = a^2 \\pm 2ab + b^2",
+      "category": "multiplication"
+    },
+    {
+      "title": "Куб суми двох чисел",
+      "formula": "(a \\pm b)^3 = a^3 \\pm 3a^{2}b + 3a{b}^{2} \\pm b^3",
+      "category": "multiplication"
+    },
+    {
+       "title": "Сума кубів двох чисел",
+       "formula": "a^3 + b^3 = (a + b)(a^2 - ab + b^2)",
+       "category": "multiplication"
+    },
+    {
+      "title": "Число в степені нуль",
+      "formula": "a^0 = 1",
+      "category": "exponents"
+    },
+    {
+      "title": "Сума степенів",
+      "formula": "a^x \\cdot a^y = a^{x+y}",
+      "category": "exponents"
+    },
+    {
+      "title": "Різниця степенів",
+      "formula": "\\frac{a^x}{a^y} = a^{x-y}",
+      "category": "exponents"
+    },
+    {
+      "title": "Добуток степенів",
+      "formula": "{(a^x)}^{y} = a^{xy}",
+      "category": "exponents"
+    },
+    {
+      "title": "Число у від'ємному степені",
+      "formula": "a^{-x} = \\frac{1}{a^x}",
+      "category": "exponents"
+    },
+    {
+      "title": "Основна тригонометрична тотожність",
+      "formula": "\\sin^2x + \\cos^2x = 1",
+      "category": "trigonometry"
+    },
+    {
+      "title": "Визначення тангенса",
+      "formula": "\\tg x = \\frac{\\sin x}{\\cos x}",
+      "category": "trigonometry"
+    },
+    {
+      "title": "Визначення котангенса",
+      "formula": "\\tg x = \\frac{\\cos x}{\\sin x}",
+      "category": "trigonometry"
+    },
+    {
+      "title": "Добуток тангесна і контангенса",
+      "formula": "\\tg{x} \\cdot \\ctg{x} = 1",
+      "category": "trigonometry"
+    },
+    {
+      "title": "Перехід від тангенса до косинуса",
+      "formula": "1 + \\tg^2 x = \\frac{1}{\\cos^2 x}",
+      "category": "trigonometry"
+    },
+    {
+      "title": "Перехід від котангенса до синуса",
+      "formula": "1 + \\ctg^2 x = \\frac{1}{\\sin^2 x}",
+      "category": "trigonometry"
+    },
+    {
+      "title": "Формула подвійного кута для синуса",
+      "formula": "\\sin{2x} = 2\\sin{x}\\cos{x}",
+      "category": "trigonometry"
+    },
+    {
+      "title": "Пониження степеня синуса",
+      "formula": "\\sin^2{x} = \\frac{1-\\cos{2x}}{2}",
+      "category": "trigonometry"
+    },
+    {
+      "title": "Пониження степеня косинуса",
+      "formula": "\\cos^2{x} = \\frac{1+\\cos{2x}}{2}",
+      "category": "trigonometry"
+    },
+    {
+      "title": "Визначення періоду тригонометричної функції",
+      "formula": "T = \\frac{T_0}{|k|}",
+      "category": "trigonometry"
+    },
+    {
+      "title": "Синус суми двох кутів",
+      "formula": "\\sin{(\\alpha+\\beta)} = \\sin{\\alpha} \\cos{\\beta} + \\cos{\\alpha} \\sin{\\beta}",
+      "category": "trigonometry"
+    },
+    {
+      "title": "Синус різниці двох кутів",
+      "formula": "\\sin{(\\alpha-\\beta)} = \\sin{\\alpha} \\cos{\\beta} - \\cos{\\alpha} \\sin{\\beta}",
+      "category": "trigonometry"
+    },
+    {
+      "title": "Косинус суми двох кутів",
+      "formula": "\\cos{(\\alpha+\\beta)} = \\cos{\\alpha} \\cos{\\beta} - \\sin{\\alpha} \\sin{\\beta}",
+      "category": "trigonometry"
+    },
+    {
+      "title": "Косинус різниці двох кутів",
+      "formula": "\\cos{(\\alpha-\\beta)} = \\cos{\\alpha} \\cos{\\beta} + \\sin{\\alpha} \\sin{\\beta}",
+      "category": "trigonometry"
+    }
+  ],
+  "categories": {
+    "multiplication": "Формули скороченого множення",
+    "exponents": "Властивості степеня",
+    "trigonometry": "Тригонометрія",
+    "progressions": "Прогресії",
+    "dx": "Похідна",
+    "integral": "Первісна та інтеграл"
+  }
+}
