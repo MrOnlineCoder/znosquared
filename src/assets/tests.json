@@ -22,7 +22,7 @@
     },
     {
       "title": "Число в степені нуль",
-      "formula": "a^0 = 1",
+      "formula": "a^0 = 1 \\\\ a \\ne 0",
       "category": "exponents"
     },
     {
@@ -338,6 +338,13 @@
     "dx": "Похідна",
     "integral": "Первісна та інтеграл",
     "combinatorics": "Комбінаторика",
-    "logarithms": "Логарифми"
+    "logarithms": "Логарифми",
+
+    "triangle": "Трикутник",
+    "rectangle": "Чотирикутник",
+    "circle": "Коло, круг",
+    "objects": "Многогранники",
+    "rotations": "Тіла обертання",
+    "vectors": "Вектори"
   }
 }
