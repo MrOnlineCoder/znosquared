@@ -273,6 +273,31 @@
       "title": "Формула Ньютона-Лейбніца (площа криволінійної трапеції)",
       "formula": "S = \\int_a^{b}{f(x)dx} = F(b) - F(a)",
       "category": "integral"
+    },
+    {
+      "title": "Первісна від лінійної функції",
+      "formula": "\\int{f(kx+b)dx} = \\frac{1}{k} \\cdot F(kx + b)",
+      "category": "integral"
+    },
+    {
+      "title": "Визначення факторіала",
+      "formula": "n! = 1 \\cdot 2 \\cdot 3 \\cdot 4 \\cdot... \\cdot n \\\\ 0! = 1 \\\\ n \\ge 0",
+      "category": "combinatorics"
+    },
+    {
+      "title": "Формула перестановок",
+      "formula": "P_n = n!",
+      "category": "combinatorics"
+    },
+    {
+      "title": "Формула комбінацій / сполучень",
+      "formula": "C_n^m = \\frac{n!}{m! \\cdot (n-m)!}",
+      "category": "combinatorics"
+    },
+    {
+      "title": "Формула розміщень",
+      "formula": "A_n^m = \\frac{n!}{(n-m)!}",
+      "category": "combinatorics"
     }
   ],
   "categories": {
