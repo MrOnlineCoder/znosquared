@@ -114,6 +114,40 @@
       "title": "Косинус різниці двох кутів",
       "formula": "\\cos{(\\alpha-\\beta)} = \\cos{\\alpha} \\cos{\\beta} + \\sin{\\alpha} \\sin{\\beta}",
       "category": "trigonometry"
+    },
+    {
+      "title": "Формула n-го члена арифметичної прогресії",
+      "formula": "a_n = a_1 + d(n + 1)",
+      "category": "progressions"
+    },
+    {
+      "title": "Формула суми перших n-членів арифметичної прогресії",
+      "formula": "S_n = \\frac{a_1 + a_n}{2} \\cdot n",
+      "category": "progressions"
+    },
+    {
+      "title": "Властивість члена арифметичної прогресії (відносно його сусідніх членів)",
+      "formula": "a_k = \\frac{a_{k-1} + a_{k+1}}{2}, k = 2,3,4 ..., n-1",
+      "category": "progressions"
+    },
+    {
+      "title": "Формула n-го члена геометричної прогресії",
+      "formula": "b_n = b_1 \\cdot q^{n-1}",
+      "category": "progressions"
+    },
+    {
+      "title": "Формула суми перших n-членів геометричної прогресії",
+      "formula": "S_n = \\frac{b_1 (1 - q^n)}{1 - q}, q \\ne 1",
+      "category": "progressions"
+    }, {
+      "title": "Сума членів нескінченно спадної геометричної прогресії",
+      "formula": "S = \\frac{b_1}{1-q}, |q| < 1",
+      "category": "progressions"
+    },
+    {
+      "title": "Властивість члена геометричної прогресії (відносно його сусідніх членів)",
+      "formula": "b_k^2 = b_{k-1} \\cdot b_{k+1}, k = 2,3,4 ..., n-1",
+      "category": "progressions"
     }
   ],
   "categories": {

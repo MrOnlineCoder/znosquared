@@ -65,7 +65,7 @@ export default {
       this.questionsPointer = 0;
     },
     buildQuestionsList() {
-      this.selectedCategories = ['trigonometry'];
+      this.selectedCategories = ['progressions'];
       Tests.tests.forEach((q) => {
         if (this.selectedCategories.includes(q.category)) this.questions.push(q);
       });
