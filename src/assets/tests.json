@@ -148,6 +148,81 @@
       "title": "Властивість члена геометричної прогресії (відносно його сусідніх членів)",
       "formula": "b_k^2 = b_{k-1} \\cdot b_{k+1}, k = 2,3,4 ..., n-1",
       "category": "progressions"
+    },
+    {
+      "title": "Похідна від сталого числа (константи)",
+      "formula": "c' = 0",
+      "category": "dx"
+    },
+    {
+      "title": "Похідна від змінної (х)",
+      "formula": "x' = 1",
+      "category": "dx"
+    },
+    {
+      "title": "Похідна від змінної x в степені k",
+      "formula": "(x^k)' = k \\cdot x^{k-1}",
+      "category": "dx"
+    },
+    {
+      "title": "Похідна від синуса",
+      "formula": "(\\sin x)' = \\cos x",
+      "category": "dx"
+    },
+    {
+      "title": "Похідна від косинуса",
+      "formula": "(\\cos x)' = - \\sin x",
+      "category": "dx"
+    },
+    {
+      "title": "Похідна від тангенса",
+      "formula": "(\\tg x)' = \\frac{1}{\\cos^2 x}",
+      "category": "dx"
+    },
+    {
+      "title": "Похідна від котангенса",
+      "formula": "(\\ctg x)' = -\\frac{1}{\\sin^2 x}",
+      "category": "dx"
+    },
+    {
+      "title": "Похідна від е в степені х",
+      "formula": "(e^x)' = e^x",
+      "category": "dx"
+    },
+    {
+      "title": "Похідна від числа в степені х",
+      "formula": "(a^x)' = a^x \\cdot \\ln a",
+      "category": "dx"
+    },
+    {
+      "title": "Похідна від логарифма",
+      "formula": "(\\log_a{x})' = \\frac{1}{x \\cdot \\ln{a}}",
+      "category": "dx"
+    },
+    {
+      "title": "Похідна від натурального логарифма",
+      "formula": "(\\ln{x})' = \\frac{1}{x}",
+      "category": "dx"
+    },
+    {
+      "title": "Похідна добутку двох функцій",
+      "formula": "(f(x) \\cdot g(x) )' = f'(x) \\cdot g(x) + f(x) \\cdot g'(x)",
+      "category": "dx"
+    },
+    {
+      "title": "Похідна частки двох функцій",
+      "formula": "(\\frac{f(x)}{g(x)} )' = \\frac{f'(x) \\cdot g(x) - f(x) \\cdot g'(x)}{g^2(x)}",
+      "category": "dx"
+    },
+    {
+      "title": "Рівняння дотичної до графіка функції",
+      "formula": "y = f(x_0) + f'(x_0)(x-x_0)",
+      "category": "dx"
+    },
+    {
+      "title": "Кутовий коефіцієнт дотичної до графіка функції",
+      "formula": "k = \\tg \\phi = f'(x_0)",
+      "category": "dx"
     }
   ],
   "categories": {
@@ -156,6 +231,8 @@
     "trigonometry": "Тригонометрія",
     "progressions": "Прогресії",
     "dx": "Похідна",
-    "integral": "Первісна та інтеграл"
+    "integral": "Первісна та інтеграл",
+    "combinatorics": "Комбінаторика",
+    "logarithms": "Логарифми"
   }
 }
