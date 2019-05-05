@@ -1,29 +1,15 @@
 # znosquared
 
-## Project setup
+Service for recalling math formuals for Ukranian National Independent Evaluation (ЗНО)
+
+## How to run
+
 ```
-yarn install
+yarn serve
 ```
 
-### Compiles and hot-reloads for development
-```
-yarn run serve
-```
+## Author
+MrOnlineCoder
 
-### Compiles and minifies for production
-```
-yarn run build
-```
-
-### Run your tests
-```
-yarn run test
-```
-
-### Lints and fixes files
-```
-yarn run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## License
+MIT (see LICENSE file)
