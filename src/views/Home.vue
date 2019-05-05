@@ -65,7 +65,7 @@ export default {
       this.questionsPointer = 0;
     },
     buildQuestionsList() {
-      this.selectedCategories = ['dx'];
+      //this.selectedCategories = ['integral'];
       Tests.tests.forEach((q) => {
         if (this.selectedCategories.includes(q.category)) this.questions.push(q);
       });
@@ -95,7 +95,9 @@ export default {
       return this.questions[this.questionsPointer];
     },
     questionFormulaHtml() {
-      return window.katex.renderToString(this.currentQuestion.formula);
+      return window.katex.renderToString(this.currentQuestion.formula, {
+        displayMode: true
+      });
     }
   }
 }

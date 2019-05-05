@@ -223,6 +223,56 @@
       "title": "Кутовий коефіцієнт дотичної до графіка функції",
       "formula": "k = \\tg \\phi = f'(x_0)",
       "category": "dx"
+    },
+    {
+      "title": "Первісна від 0",
+      "formula": "\\int{0} = C",
+      "category": "integral"
+    },
+    {
+      "title": "Первісна від 1",
+      "formula": "\\int{1} = x + C",
+      "category": "integral"
+    },
+    {
+      "title": "Первісна від х в степені n",
+      "formula": "\\int{x^n} = \\frac{x^{n+1}}{n+1} + C",
+      "category": "integral"
+    },
+    {
+      "title": "Первісна від кореня",
+      "formula": "\\int{\\frac{1}{\\sqrt{x}}} = 2\\sqrt{x} + C",
+      "category": "integral"
+    },
+    {
+      "title": "Первісна від частки 1 / x",
+      "formula": "\\int{\\frac{1}{x}} = \\ln|x| + C",
+      "category": "integral"
+    },
+    {
+      "title": "Первісна від числа в степені х",
+      "formula": "\\int{a^x} = \\frac{a^x}{\\ln a} + C",
+      "category": "integral"
+    },
+    {
+      "title": "Первісна від e в степені х",
+      "formula": "\\int{e^x} = e^x + C",
+      "category": "integral"
+    },
+    {
+      "title": "Первісна від синуса",
+      "formula": "\\int{\\sin x} = -\\cos x + C",
+      "category": "integral"
+    },
+    {
+      "title": "Первісна від косинуса",
+      "formula": "\\int{\\cos x} = \\sin x + C",
+      "category": "integral"
+    },
+    {
+      "title": "Формула Ньютона-Лейбніца (площа криволінійної трапеції)",
+      "formula": "S = \\int_a^{b}{f(x)dx} = F(b) - F(a)",
+      "category": "integral"
     }
   ],
   "categories": {
