@@ -439,6 +439,37 @@
       "title": "Радіус кола, вписаного в ромб",
       "formula": "r = \\frac{h}{2}",
       "category": "rectangle"
+    },
+
+    {
+      "title": "Діаметр кола",
+      "formula": "d = 2r",
+      "category": "circle"
+    },
+    {
+      "title": "Довжина кола",
+      "formula": "C = 2 \\pi r = \\pi d",
+      "category": "circle"
+    },
+    {
+      "title": "Площа круга",
+      "formula": "S = \\pi r^2",
+      "category": "circle"
+    },
+    {
+      "title": "Рівняння кола",
+      "formula": "{(x-a)}^{2} + {(y-b)}^{2} = R^2",
+      "category": "circle"
+    },
+    {
+      "title": "Довжина дуги кола",
+      "formula": "l = \\frac{\\pi r }{180 \\degree} \\cdot \\alpha",
+      "category": "circle"
+    },
+    {
+      "title": "Площа сектора круга",
+      "formula": "S = \\frac{\\pi r^2}{360 \\degree} \\cdot \\alpha",
+      "category": "circle"
     }
   ],
   "categories": {
