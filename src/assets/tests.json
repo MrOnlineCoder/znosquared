@@ -328,6 +328,56 @@
       "title": "Винесення степеня з основи логарифма",
       "formula": "\\log_{a^n}{b} = \\frac{1}{n}\\log_{a}{b} \\\\ n \\ne 0",
       "category": "logarithms"
+    },
+    {
+      "title": "Площа трикутника (через висоту)",
+      "formula": "S = \\frac{1}{2}ah",
+      "category": "triangle"
+    },
+    {
+      "title": "Площа трикутника (формула Герона)",
+      "formula": "S = \\sqrt{p(p-a)(p-b)(p-c)} \\\\ p = \\frac{a + b + c}{2}",
+      "category": "triangle"
+    },
+    {
+      "title": "Площа трикутника (через кут)",
+      "formula": "S = \\frac{1}{2}ab \\sin{\\gamma}",
+      "category": "triangle"
+    },
+    {
+      "title": "Радіус кола, описаного навколо трикутника",
+      "formula": "R = \\frac{abc}{4S}",
+      "category": "triangle"
+    },
+    {
+      "title": "Радіус кола, вписаного в трикутник",
+      "formula": "r = \\frac{S}{p} = \\frac{2S}{a + b +c}",
+      "category": "triangle"
+    },
+    {
+      "title": "Теорема косинусів",
+      "formula": "c^2 = a^2 + b^2 - 2ab \\cos{\\gamma}",
+      "category": "triangle"
+    },
+    {
+      "title": "Теорема Піфагора",
+      "formula": "c^2 = a^2 + b^2",
+      "category": "triangle"
+    },
+    {
+      "title": "Теорема синусів",
+      "formula": "\\frac{a}{\\sin \\alpha} = \\frac{b}{\\sin \\beta} = \\frac{c}{\\sin \\gamma} = 2R",
+      "category": "triangle"
+    },
+    {
+      "title": "Сума кутів трикутника",
+      "formula": "\\alpha + \\beta + \\gamma = 180 \\degree",
+      "category": "triangle"
+    },
+    {
+      "title": "Медіана, проведена до гіпотенузи в прямокутному трикутнику",
+      "formula": "m = \\frac{c}{2}",
+      "category": "triangle"
     }
   ],
   "categories": {

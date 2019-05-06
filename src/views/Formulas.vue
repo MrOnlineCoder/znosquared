@@ -65,7 +65,7 @@ export default {
       this.questionsPointer = 0;
     },
     buildQuestionsList() {
-      //this.selectedCategories = ['logarithms'];
+      this.selectedCategories = ['triangle'];
       Tests.tests.forEach((q) => {
         if (this.selectedCategories.includes(q.category)) this.questions.push(q);
       });
@@ -96,7 +96,7 @@ export default {
     },
     questionFormulaHtml() {
       return window.katex.renderToString(this.currentQuestion.formula, {
-        displayMode: true
+        displayMode: false
       });
     }
   }
