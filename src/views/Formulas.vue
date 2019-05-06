@@ -25,14 +25,14 @@
         <small class="text-muted">{{questionsAnswered}} / {{totalQuestions}}</small>
         <br>
         <small class="text-muted">{{ allCategories[currentQuestion.category]}}</small>
-        <blockquote class="blockquote">
-          {{ currentQuestion.title }}
-        </blockquote>
         <div class="formula">
+          <blockquote class="blockquote">
+            {{ currentQuestion.title }}
+          </blockquote>
           <h3 v-html="questionFormulaHtml" v-show="showFormula"></h3>
         </div>
         <br>
-        <b-button size="lg" variant="success" @click="advance(true)" v-if="options.advanceButton">
+        <b-button class="advanceButton" size="lg" variant="success" @click="advance(true)" v-if="options.advanceButton">
           {{ showFormula ? 'Продовжити' : 'Показати формулу'}}
         </b-button>
       </div>
@@ -148,15 +148,39 @@ export default {
 <style>
 .container {
   text-align: center;
+  min-height: 100%;
 }
 
 .test-area {
   cursor: pointer;
+  display:block;
+  height: 450px;
 }
 
-.formula { 
-  min-height: 50px;
-  height: 50px;
+.formula {
+  height: 250px;
+  display: block;
+}
+
+@media only screen 
+  and (min-width: 320px) {
+  .katex { 
+    font-size: 0.92em; 
+  }
+}
+
+@media only screen 
+  and (min-width: 375px) {
+  .katex { 
+    font-size: 1em; 
+  }
+}
+
+@media only screen 
+  and (min-width: 400px) {
+  .katex { 
+    font-size: 1.1em; 
+  }
 }
 </style>
 
