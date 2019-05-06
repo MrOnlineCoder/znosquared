@@ -378,6 +378,67 @@
       "title": "Медіана, проведена до гіпотенузи в прямокутному трикутнику",
       "formula": "m = \\frac{c}{2}",
       "category": "triangle"
+    },
+    {
+      "title": "Площа рівностороннього триктуника",
+      "formula": "S = \\frac{a^2 \\sqrt{3}}{4}",
+      "category": "triangle"
+    },
+    {
+      "title": "Радіус кола, описаного навколо рівностороннього трикутника",
+      "formula": "R = \\frac{a \\sqrt{3}}{3}",
+      "category": "triangle"
+    },
+
+    {
+      "title": "Площа паралелограма",
+      "formula": "S = a \\cdot h_a",
+      "category": "rectangle"
+    },
+    {
+      "title": "Площа паралелограма (через кут)",
+      "formula": "S = a b \\sin{\\gamma}",
+      "category": "rectangle"
+    },
+    {
+      "title": "Площа паралелограма (через діагоналі і кут між ними)",
+      "formula": "S = \\frac{1}{2} d_1 d_2 \\sin {\\theta}",
+      "category": "rectangle"
+    },
+    {
+      "title": "Площа прямокутника",
+      "formula": "S = a b",
+      "category": "rectangle"
+    },
+    {
+      "title": "Площа квадрата",
+      "formula": "S = a^2",
+      "category": "rectangle"
+    },
+    {
+      "title": "Діагональ квадрата",
+      "formula": "d = a\\sqrt{2}",
+      "category": "rectangle"
+    },
+    {
+      "title": "Радіус кола, описаного навколо квадрата",
+      "formula": "R = \\frac{a \\sqrt{2}}{2}",
+      "category": "rectangle"
+    },
+    {
+      "title": "Площа ромба",
+      "formula": "S = a^2 \\cdot \\sin{\\alpha}",
+      "category": "rectangle"
+    },
+    {
+      "title": "Площа ромба (через діагоналі)",
+      "formula": "S = \\frac{1}{2} d_1 d_2",
+      "category": "rectangle"
+    },
+    {
+      "title": "Радіус кола, вписаного в ромб",
+      "formula": "r = \\frac{h}{2}",
+      "category": "rectangle"
     }
   ],
   "categories": {
