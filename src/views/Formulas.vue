@@ -2,9 +2,13 @@
   <div class="container ">
     <h1>ZNO<sup>2</sup></h1>
     <hr>
-    <p>Цей сервіс розроблено для перевірки знання формул з математики, що використовується в задачах по програмі ЗНО.</p>
-    <p>Ви можете обрати теми, по яким проводити опитування</p>
-    <p>Вам буде показано текстовий опис (призначення) формули. Подумки згадайте формулу та натисніть на визначення щоб побачити її та порівняти з власним варіантом.</p>
+    <div v-if="!testing">
+      <p>Цей сервіс розроблено для перевірки знання формул з математики, що використовується в задачах по програмі ЗНО.</p>
+      <p>Ви можете обрати теми, по яким проводити опитування</p>
+      <p>Вам буде показано текстовий опис (призначення) формули. Подумки згадайте формулу та натисніть на визначення щоб побачити її та порівняти з власним варіантом.</p>
+      <small class="text-muted" v-if="!testing">Всього для опитування доступно формул: {{ avaliableQuestionsCount }}</small>
+    </div>
+    <br>
     <div class="card">
       <b-button-group v-if="!testing">
         <b-button variant="success" @click="startQuiz()">
@@ -50,6 +54,7 @@ export default {
       questionsPointer: 0,
       totalQuestions: 0,
       selectedCategories: Object.keys(Tests.categories),
+      avaliableQuestionsCount: Tests.tests.length,
       
       showFormula: false,
       allCategories: Tests.categories
@@ -65,7 +70,7 @@ export default {
       this.questionsPointer = 0;
     },
     buildQuestionsList() {
-      this.selectedCategories = ['circle'];
+      this.selectedCategories = ['vectors'];
       Tests.tests.forEach((q) => {
         if (this.selectedCategories.includes(q.category)) this.questions.push(q);
       });
