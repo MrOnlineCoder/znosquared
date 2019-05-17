@@ -57,7 +57,7 @@
     },
     {
       "title": "Визначення котангенса",
-      "formula": "\\tg x = \\frac{\\cos x}{\\sin x}",
+      "formula": "\\ctg x = \\frac{\\cos x}{\\sin x}",
       "category": "trigonometry"
     },
     {
@@ -498,7 +498,7 @@
     },
     {
       "title": "Площа поверхні кулі",
-      "formula": "V = 4\\pi r^2",
+      "formula": "S = 4\\pi r^2",
       "category": "rotations"
     },
 
